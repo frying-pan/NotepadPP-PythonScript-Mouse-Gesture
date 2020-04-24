@@ -4,9 +4,11 @@ Add keyboard + mouse gestures to Notepad++ when the script is run from Notepad++
 
 via a window procedure hook on Notepad++ Scintilla child windows
 
+
 Tested with Notepad++ 7.8.2 64 bits, with PythonScript plugin 1.5.2
 
 on Windows 8.1 64 bits (NOT tested with Notepad++ 32 Bits but could be compatible)
+
 
 Features :
   * SHIFT + double-left-click        : select from clicked point the whole variable name : alphanumeric with _ and . (dot)
@@ -24,6 +26,7 @@ Perso_ScintWndProc_Hook.v2.0.py
 changes :
 * code reorganized/cleaned
 * more object oriented
+
 
 This script can be run at Notepad++ startup :
 
