@@ -19,24 +19,24 @@ Features :
 
 # Versions :
 
-Perso_ScintWndProc_Hook.v1.py
+Perso_ScintWndProc_Hook_v1_0.py, (updated to Perso_ScintWndProc_Hook_v1_1.py for a small bug)
 is somewhat more tested.
 
-Perso_ScintWndProc_Hook.v2.0.py
+Perso_ScintWndProc_Hook_v2_0.py, (updated to Perso_ScintWndProc_Hook_v2_1.py for the same small bug as v1_0)
 changes :
 * code reorganized/cleaned
 * more object oriented
 
 
-This script can be run at Notepad++ startup :
+This script can be run at Notepad++ startup (folders below are those of a local installation) : 
 
-* copy the .py script file in
+* copy the .py script file in :
 
 C:\Users\[username]\AppData\Roaming\Notepad++\plugins\config\PythonScript\scripts
 
 * add "import [py script file name without extension]"
 
-to the startup.py file located, for me, under the Notepad++ install folder
+to the startup.py file located, for me, under the Notepad++ install folder :
 
 C:\Program Files\Notepad++\plugins\PythonScript\scripts
 
