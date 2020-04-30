@@ -26,7 +26,7 @@ This script can be run at Notepad++ startup (folders below are those of a local 
 
 C:\Users\[username]\AppData\Roaming\Notepad++\plugins\config\PythonScript\scripts
 
-* add "import [Perso_ScintWndProc_Hook py script file name without extension]"
+* add "import [Perso_ScintWndProc_Hook (py) script file name without extension]"
 
 to the startup.py file located, for me, under the Notepad++ install folder :
 
