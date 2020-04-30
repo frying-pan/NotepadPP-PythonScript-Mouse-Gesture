@@ -30,11 +30,11 @@ changes :
 
 This script can be run at Notepad++ startup (folders below are those of a local installation) : 
 
-* copy the .py script file in :
+* copy the main Perso_ScintWndProc_Hook .py script file (and starting from v3 the needed libraries files) in :
 
 C:\Users\[username]\AppData\Roaming\Notepad++\plugins\config\PythonScript\scripts
 
-* add "import [py script file name without extension]"
+* add "import [Perso_ScintWndProc_Hook py script file name without extension]"
 
 to the startup.py file located, for me, under the Notepad++ install folder :
 
