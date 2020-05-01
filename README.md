@@ -16,6 +16,7 @@ Features :
   * ALT + SHIFT + double-left-click  : select from clicked point the whole quote content : "" '', from left in case of mismatch
   * ALT + right-click                : select from clicked point until space/space-like characters are met : space/tab/cr/lf/formfeed/vtab etc...
   * right-click                      : prevent right-click from moving the caret and losing current text selection
+  * auto-copy new selection to clipboard and/or console
 
 
 # Install :
@@ -47,6 +48,7 @@ changes :
 
 Perso_ScintWndProc_Hook_v3_0.py
 changes :
+* now requires the two libraries : Perso__Lib_Edit.py, Perso__Lib_Window.py provided in the repository
 * new option to select brackets, quotes with content
 * new option to auto-copy selection to clipboard, console
 * capability to expand selection from a previous selection
