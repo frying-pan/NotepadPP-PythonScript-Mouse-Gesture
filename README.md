@@ -44,3 +44,10 @@ Perso_ScintWndProc_Hook_v2_0.py, (updated to Perso_ScintWndProc_Hook_v2_1.py for
 changes :
 * code reorganized/cleaned
 * more object oriented
+
+Perso_ScintWndProc_Hook_v3_0.py
+changes :
+* new option to select brackets, quotes with content
+* new option to auto-copy selection to clipboard, console
+* capability to expand selection from a previous selection
+* code reorganized/cleaned/optimized
