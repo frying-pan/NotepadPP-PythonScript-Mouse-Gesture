@@ -23,7 +23,7 @@ Features :
 
 This script can be run at Notepad++ startup (folders below are those of a local installation) : 
 
-* copy the main Perso_ScintWndProc_Hook .py script file (and starting from v3 the needed libraries files) in :
+* copy/extract the main Perso_ScintWndProc_Hook .py script file (and starting from v3 the needed libraries files) in :
 
 C:\Users\[username]\AppData\Roaming\Notepad++\plugins\config\PythonScript\scripts
 
@@ -39,7 +39,6 @@ C:\Program Files\Notepad++\plugins\PythonScript\scripts
 # Versions :
 
 Perso_ScintWndProc_Hook_v1_0.py, (updated to Perso_ScintWndProc_Hook_v1_1.py for a small bug)
-is somewhat more tested.
 
 Perso_ScintWndProc_Hook_v2_0.py, (updated to Perso_ScintWndProc_Hook_v2_1.py for the same small bug as v1_0)
 changes :
@@ -48,7 +47,7 @@ changes :
 
 Perso_ScintWndProc_Hook_v3_0.py
 changes :
-* now requires the two libraries : Perso__Lib_Edit.py, Perso__Lib_Window.py provided in the repository
+* now requires the two libraries : Perso__Lib_Edit.py, Perso__Lib_Window.py included in zip
 * new option to select brackets, quotes with content
 * new option to auto-copy selection to clipboard, console
 * capability to expand selection from a previous selection
