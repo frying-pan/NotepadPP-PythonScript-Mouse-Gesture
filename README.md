@@ -58,3 +58,7 @@ changes :
 * better handling of both Notepad++ views
 * should only hook the 2 required Scintilla editors window
 * code optimization
+
+Perso_ScintWndProc_Hook_v3_2.py
+changes :
+* minor update
