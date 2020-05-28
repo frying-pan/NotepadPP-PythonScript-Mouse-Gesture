@@ -16,7 +16,7 @@ Features :
   * ALT + SHIFT + double-left-click  : select from clicked point the whole quote content : "" '', from left in case of mismatch
   * ALT + right-click                : select from clicked point until space/space-like characters are met : space/tab/cr/lf/formfeed/vtab etc...
   * right-click                      : prevent right-click from moving the caret and losing current text selection
-  * auto-copy new selection to clipboard and/or console
+  * optional auto-copy new selection to clipboard and/or console
 
 
 # Install :
