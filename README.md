@@ -1,4 +1,4 @@
-# NotepadPP-PythonScript-Mouse-Gesture
+# Mouse_Select_Gesture
 
 Add keyboard + mouse gestures to Notepad++ when the script is run from Notepad++ (with PythonScript plugin installed)
 
