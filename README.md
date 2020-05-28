@@ -11,7 +11,7 @@ on Windows 8.1 64 bits (NOT tested with Notepad++ 32 Bits but could be compatibl
 
 
 Features :
-  * SHIFT + double-left-click        : select from clicked point the whole variable name : alphanumeric with _ and . (dot)
+  * SHIFT + double-left-click        : select from clicked point the whole word, with custom special characters
   * CTRL + SHIFT + double-left-click : select from clicked point the whole bracket content : () [] {}, from left in case of mismatch
   * ALT + SHIFT + double-left-click  : select from clicked point the whole quote content : "" '', from left in case of mismatch
   * ALT + right-click                : select from clicked point until space/space-like characters are met : space/tab/cr/lf/formfeed/vtab etc...
