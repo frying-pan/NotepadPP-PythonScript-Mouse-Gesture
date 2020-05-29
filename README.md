@@ -23,7 +23,7 @@ Features :
 
 This script can be run at Notepad++ startup (folders below are those of a local installation) : 
 
-* copy the main FP_MouseSelectGest_Hook .py script file (and starting from v3 the needed libraries files) in :
+* copy the main FP_MouseSelectGest_Hook .py script file (and starting from v3_0 the needed libraries files) in :
 
 C:\Users\[username]\AppData\Roaming\Notepad++\plugins\config\PythonScript\scripts
 
