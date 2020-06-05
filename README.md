@@ -1,21 +1,18 @@
 # Mouse_Select_Gesture
 
-Add keyboard + mouse gestures to Notepad++ when the script is run from Notepad++ (with PythonScript plugin installed)
+PythonScript that adds keyboard modifiers + mouse clicks for text selection (WndProc HOOK on Scintilla windows).
 
-via a window procedure hook on Notepad++ Scintilla child windows
+Tested with Notepad++ 7.8.2 64 bits, on Windows 8.1 64 bits (NOT tested with Notepad++ 32 Bits but should be compatible)
 
-
-Tested with Notepad++ 7.8.2 64 bits, with PythonScript plugin 1.5.2,
-
-on Windows 8.1 64 bits (NOT tested with Notepad++ 32 Bits but could be compatible)
+using PythonScript plugin 1.5.2 from https://github.com/bruderstein/PythonScript/releases/ (based on python 2.7).
 
 
 Features :
-  * SHIFT + double-left-click        : select from clicked point the whole word, with custom special characters
-  * CTRL + SHIFT + double-left-click : select from clicked point the whole bracket content : () [] {}, from left in case of mismatch
-  * ALT + SHIFT + double-left-click  : select from clicked point the whole quote content : "" '', from left in case of mismatch
-  * ALT + right-click                : select from clicked point until space/space-like characters are met : space/tab/cr/lf/formfeed/vtab etc...
-  * right-click                      : prevent right-click from moving the caret and losing current text selection
+  * SHIFT + double-left-click			: select from clicked point/selection the whole word, with custom special characters
+  * CTRL + SHIFT + double-left-click	: select from clicked point/selection the whole bracket : () [] {} <>, left-most pair in case of mismatch
+  * ALT + SHIFT + double-left-click	: select from clicked point/selection the whole quote : "" '', left-most pair in case of mismatch
+  * ALT + right-click					: select from clicked point/selection until space/space-like chars are met : space/tab/cr/lf etc...
+  * right-click						: prevent right-click from losing current text selection and moving the cursor
   * optional auto-copy new selection to clipboard and/or console
 
 
@@ -69,3 +66,6 @@ changes :
 * follow Scintilla bracket matching rule
 * custom special characters for word selection
 
+FP_MouseSelectGest_Hook_v3_4.py
+changes :
+* added <> angle brackets highlight as an option
