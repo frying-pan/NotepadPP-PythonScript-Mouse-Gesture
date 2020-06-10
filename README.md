@@ -8,11 +8,11 @@ using PythonScript plugin 1.5.2 from https://github.com/bruderstein/PythonScript
 
 
 Features :
-  * CTRL + SHIFT + double-left-click	: select from clicked point/selection the whole bracket : () [] {} + <>, left-most pair in case of mismatch
-  * ALT + SHIFT + double-left-click	: select from clicked point/selection the whole quote : "" '', left-most pair in case of mismatch
-  * CTRL + right-click					: select from clicked point/selection the whole word, with custom special characters
-  * SHIFT + right-click					: select from clicked point/selection until space/space-like chars are met : space/tab/cr/lf etc...
-  * right-click						: prevent right-click from losing current text selection and moving the cursor
+  * CTRL + SHIFT + double-left-click : select from clicked point/selection the whole bracket : () [] {} + <>, left-most pair in case of mismatch
+  * ALT + SHIFT + double-left-click : select from clicked point/selection the whole quote : "" '', left-most pair in case of mismatch
+  * CTRL + right-click : select from clicked point/selection the whole word, with custom special characters
+  * SHIFT + right-click : select from clicked point/selection until space/space-like chars are met : space/tab/cr/lf etc...
+  * right-click : prevent right-click from losing current text selection and moving the cursor
   * optional auto-copy new selection to clipboard and/or console
 
 
