@@ -8,10 +8,10 @@ using PythonScript plugin 1.5.2 from https://github.com/bruderstein/PythonScript
 
 
 Features :
-  * SHIFT + double-left-click			: select from clicked point/selection the whole word, with custom special characters
   * CTRL + SHIFT + double-left-click	: select from clicked point/selection the whole bracket : () [] {} + <>, left-most pair in case of mismatch
   * ALT + SHIFT + double-left-click	: select from clicked point/selection the whole quote : "" '', left-most pair in case of mismatch
-  * ALT + right-click					: select from clicked point/selection until space/space-like chars are met : space/tab/cr/lf etc...
+  * CTRL + right-click					: select from clicked point/selection the whole word, with custom special characters
+  * SHIFT + right-click					: select from clicked point/selection until space/space-like chars are met : space/tab/cr/lf etc...
   * right-click						: prevent right-click from losing current text selection and moving the cursor
   * optional auto-copy new selection to clipboard and/or console
 
@@ -69,3 +69,8 @@ changes :
 FP_MouseSelectGest_Hook_v3_4.py
 changes :
 * added <> angle brackets highlight as an option
+
+FP_MouseSelectGest_Hook_v3_5.py
+changes :
+* changed keyboard + right-click combos : word selection, and selection until space/space-like chars are met
+* added option : only highlight <> angle brackets when they are on the same line, to limit unwanted matchings
