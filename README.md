@@ -73,4 +73,4 @@ changes :
 FP_MouseSelectGest_Hook_v3_5.py
 changes :
 * changed keyboard + right-click combos : word selection, and selection until space/space-like chars are met
-* added option : only highlight <> angle brackets when they are on the same line, to limit unwanted matchings
+* added option : only select <> angle brackets when they are on the same line
