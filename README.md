@@ -81,3 +81,7 @@ FP_MouseSelectGest_Hook_v4_0.py
 changes :
   * debugged and hardened editors window detection
   * added feature : middle-click alternative to the double-click and right-click shortcuts
+
+FP_MouseSelectGest_Hook_v4_1.py
+changes :
+  * quotes "" '' content selection now requires that both quotes and their content have the same style
