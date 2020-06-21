@@ -15,6 +15,7 @@ Features :
   * [same modifiers] + middle-click	: same actions as above (can, as an option, move the caret)
   * [NO modifier] + right-click		: prevent simple right-click from losing current text selection and moving the caret
   * optional auto-copy new selection to clipboard and/or console
+  * each of these feature can be disabled independently
 
 
 
